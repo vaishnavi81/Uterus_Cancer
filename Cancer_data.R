@@ -46,7 +46,7 @@ for(i in 1:nrow(log_c)){
   data1[i,1]=res$estimate[[1]]
   data1[i,2]=res$estimate[[2]]
   data1[i,3]=res$p.value
-  data1[i,4]=mat1[i,1]-mat1[i,2]
+  data1[i,4]=data1[i,1]-data1[i,2]
   
 }
 
