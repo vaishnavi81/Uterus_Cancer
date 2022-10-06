@@ -18,5 +18,6 @@ data2=function(F_data){        #create_function2 and load log2cpm data into it
 }
 library(ComplexHeatmap)  
 pdf('data1.pdf',width=10,height=10)
-dev.off()
 data2(F_data)
+dev.off()
+
