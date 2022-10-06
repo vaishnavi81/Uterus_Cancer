@@ -55,5 +55,6 @@ num=which(is.nan(mat1$pvalue))
 data1[num,'pvalue']=1
 
 library(EnhancedVolcano) #importing library
+pdf('data.pdf',width=10,height=10)
 EnhancedVolcano(data1,lab = rownames(data1),x = 'log2FC' ,y ='pvalue')
-
+dev.off()
