@@ -56,5 +56,5 @@ data1[num,'pvalue']=1
 
 library(EnhancedVolcano) #importing library
 pdf('data.pdf',width=10,height=10)
-EnhancedVolcano(data1,lab = rownames(data1),x = 'log2FC' ,y ='pvalue')
+EnhancedVolcano(data1,lab = rownames(data1),x = 'log2FC' ,y ='pvalue',pCutoff = 3.5)
 dev.off()
