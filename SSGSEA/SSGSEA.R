@@ -58,7 +58,7 @@ ssgsea = function(X, gene_sets, alpha = 0.25, scale = T, norm = F, single = T) {
 library(org.Hs.eg.db)
 library(AnnotationDbi)
 #Read dataset
-data1 = read.csv("C:/Users/91735/Documents/BVP material/7_cancer genomics/lg.csv")
+data1 = read.csv("C:/Users/91735/Documents/BVP material/7_cancer genomics/Gene_names.csv")
 rownames(data1)=make.names(data1[,1],unique = TRUE)
 View(data1)
 data1=data1[,-1]
