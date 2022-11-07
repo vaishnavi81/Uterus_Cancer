@@ -34,7 +34,7 @@ discover quantitative changes in expression levels between experimental groups.
 For Circos plot we use DEG file 
 We build the basic chromosome ideogram and file that contains log2 fold change values and p values.
 Convert Enseemble_id name with bimaRT 'hgnc_symbol' gene name
-Track upsiginificant genes in the chromosome
+ Track upsiginificant genes in the chromosome
 
 5)SSGSEA ANALYSIS:
 Single-sample GSEA (ssGSEA), an extension of Gene Set Enrichment Analysis (GSEA), calculates separate enrichment scores for each pairing of a sample and gene set. Each ssGSEA enrichment score represents the degree to which the genes in a particular gene set are coordinately up- or down-regulated within a sample.
